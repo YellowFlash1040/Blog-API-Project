@@ -1,0 +1,21 @@
+You wanted a practice to create a solution.
+We already discussed that a blog api would be nice.
+
+These are the things that you need to develop then:
+- Web Api for Creating a blog, fields will be Title, etc.
+- Post that can be added / deleted from a blog, that does not have to be fancy, just date, title content etc.
+- Comments that can be added to a post, by users with a valid email adress.
+
+For this to work, you will need to create an EF-Core Repository.
+Set it up with Model First, so it will create the database tables for you.
+Split it up in at least these BlogRepository, PostRepository and CommentRepository
+Then Create a Service using these Repositories.
+Your WebApi will talk to this service only. Not directly to the Repository.
+Set it up with the default Dependency Injection used in .net.
+
+You can test it all with postman.
+
+If you want a frontend- talking to it, try to look at Blazor or MIUI.. But that is not needed.
+
+Ofc a lot of this you will need to be learing online, practice what you've seen in the courses. 
+And ask questions if you are stuck..
